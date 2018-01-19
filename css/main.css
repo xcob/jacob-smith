@@ -52,13 +52,13 @@ body, html {
 
 
 .section-light {
-  text-align: center;
+  text-align: left;
   padding: 50px 80px;
 
  }
 
 .section-dark {
-  text-align: center;
+  text-align: left;
   padding: 50px 80px;
   background-color: #282e34;
   color: #ddd;
