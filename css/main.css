@@ -3,10 +3,15 @@ body, html {
   height: 100%;
   margin: 0%;
   font-size: 16px;
-  font-family: "Lato", sans-serif;
+  font-family:'Montserrat', sans-serif;
   font-weight: 400;
   line-height: 1.8em;
   color: #666;
+
+}
+
+h1 {
+  padding: 5px;
 
 }
 
@@ -61,17 +66,26 @@ body, html {
 
 
 .section-light {
-  text-align: left;
+  text-align: center;
   padding: 50px 80px;
+  background: #ddd;
+  
 
  }
 
 .section-dark {
   text-align: left;
   padding: 50px 80px;
-  background-color: #282e34;
-  color: #ddd;
+  background-color: rgba( 40, 46, 52, 0.75);
+  color: #fff;
 
+}
+
+.section-blue {
+  text-align: left;
+  padding: 50px 80px;
+  background-color: rgba(85, 121, 175, 0.75);
+  color: #fff;
 }
 
 .ptext {
@@ -82,6 +96,43 @@ body, html {
   text-transform: uppercase;
   font-size: 32px;
   letter-spacing: 8px;
+  font-family: 'Raleway';
+
+}
+
+/* CSS For the Project Portion of the Website */
+/* I don't actually know if this is the right way to do it */
+
+.container{
+  overflow-x: hidden;
+}
+
+.project-1-left, .project-2-left, .project-3-left {
+  padding: 20px;
+
+}
+
+.project-1-left img {
+  height: 100%;
+  width: 100%;
+
+}
+
+.project-2-left img{
+  height: 100%;
+  width: 100%;
+
+}
+
+.project-3-left img{
+  height: 100%;
+  width: 100%;
+
+}
+
+
+.project-1-right, .project-2-right, .project-3-right{
+  padding: 20px;
 
 
 }
