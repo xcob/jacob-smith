@@ -37,11 +37,20 @@ body, html {
 
 }
 
-.ptext .border{
-  padding: 8px;
-  color: #ddd;
+.prog1 .ptext {
+  color: #fff;
 
 }
+
+ .city1 .ptext {
+   color: #fff;
+
+ }
+
+ .edu1 .ptext {
+   color: #fff;
+
+ }
 
 /*
 .section {
