@@ -17,7 +17,7 @@ h1 {
 }
 
 footer {
-  padding: 30px;
+  padding: 20px;
 
 }
 
@@ -26,7 +26,7 @@ footer {
 
 }
 
-.prog1, .city1, .edu1 {
+.prog1, .city1, .edu1, .contact{
   position: relative;
   opacity: 0.70;
   background-position: center;
@@ -53,6 +53,12 @@ footer {
 
 }
 
+.contact {
+  background-image: url(../img/contact.jpeg);
+  min-height: 100%;
+
+}
+
 .prog1 .ptext {
   color: #fff;
 
@@ -67,6 +73,13 @@ footer {
    color: #fff;
 
  }
+
+ .contact .ptext {
+   color: grey;
+
+ }
+
+
 
 /*
 .section {
