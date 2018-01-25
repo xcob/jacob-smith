@@ -16,12 +16,13 @@ body {
   font-size: 20px;
   color: #000;
   letter-spacing: 2px;
-  font-size: 30px;
+  padding-left: 20px;
+  font-size: 28px;
 
 }
 
 .nav-link {
-  color: #ddd;
+  color: #000;
 
 }
 
