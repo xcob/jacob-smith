@@ -28,36 +28,42 @@ footer {
 
 .prog1, .city1, .edu1, .contact{
   position: relative;
-  opacity: 0.70;
+  opacity: 0.90;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
+  background-attachment: fixed;
   z-index: 1;
 
 
 }
 
+
 .prog1 {
   background-image: url(../img/prog1.jpeg);
   min-height: 100%;
+  background: transparent;
+  
 
 }
 
 .city1 {
   background-image: url(../img/city1.jpeg);
   min-height: 600px;
+  background: transparent;
 
 }
 .edu1 {
   background-image: url(../img/edu1.jpeg);
   min-height: 500px;
+  background: transparent;
 
 }
 
 .contact {
   background-image: url(../img/contact.jpeg);
   min-height: 100%;
+  background: transparent;
 
 }
 
