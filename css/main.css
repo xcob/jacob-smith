@@ -8,10 +8,21 @@ body, html {
   line-height: 1.8em;
   color: #666;
 
+
 }
 
 h1 {
   padding: 5px;
+
+}
+
+footer {
+  padding: 30px;
+
+}
+
+.nav {
+  z-index: 3;
 
 }
 
@@ -68,8 +79,8 @@ h1 {
 .section-light {
   text-align: center;
   padding: 50px 80px;
-  background: #ddd;
-  
+  background-color: rgba(211, 211,	211, 0.75);
+
 
  }
 
@@ -105,6 +116,8 @@ h1 {
 
 .container{
   overflow-x: hidden;
+  padding-top: 40px;
+
 }
 
 .project-1-left, .project-2-left, .project-3-left {
@@ -118,10 +131,18 @@ h1 {
 
 }
 
+.project-1-left img:hover {
+  opacity: 0.50
+}
+
 .project-2-left img{
   height: 100%;
   width: 100%;
 
+}
+
+.project-2-left img:hover{
+  opacity: 0.50
 }
 
 .project-3-left img{

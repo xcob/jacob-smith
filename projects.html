@@ -11,7 +11,7 @@
 </head>
 <body>
 
-  <ul class="nav justify-content-end">
+  <ul class="nav fixed-top justify-content-end">
     <li class="nav-item">
     <a class="nav-link text-dark" href="index.html">Home</a>
     </li>
@@ -31,12 +31,12 @@
       </div>
       <div class="col-md-7">
         <div class="project-1-right">
-          <h3>Cob's Coffee</h3>
+          <h3>Project 1</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
              Ut enim ad minim veniam, quis nostrud laborum.
           </p>
-          <div class="btn btn-dark">Github</div>
+          <a class="btn btn-dark" href="#">Github</a>
         </div>
       </div>
     </div>
@@ -46,17 +46,18 @@
     <div class="row">
       <div class="col-md-5">
         <div class="project-2-left">
-          <img src="img/mountains2.jpg" alt="">
+          <a href="fullstackscroll.html">
+            <img src="img/fullstack.png"></a>
         </div>
       </div>
       <div class="col-md-7">
         <div class="project-2-right">
           <h3>Full Stack Animation</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-             occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <p>This was an HTML and CSS tutorial provided by Traversy Media via YouTube.
+            I used this mainly to learn how to create scrolling animations and create more dynamic sites.
+            I have adapted these scrolling effects to other aspects of my site.
           </p>
-          <div class="btn btn-dark">Github</div>
+          <a class="btn btn-dark" href="https://github.com/xcob/scroll-animation-">Github</a>
         </div>
       </div>
     </div>
@@ -77,11 +78,14 @@
              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
              t mollit anim id est laborum.
           </p>
-          <div class="btn btn-dark">Github</div>
+          <a class="btn btn-dark" href="#">Github</a>
         </div>
       </div>
     </div>
   </div>
+
+
+  <footer class="text-center"> Jacob Smith &copy; 2018</footer>
   <script>
   window.sr = ScrollReveal();
   sr.reveal('.project-1-left', {
